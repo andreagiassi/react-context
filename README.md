@@ -3,6 +3,10 @@
 #### Overview
 This is a small project to explain how to propagate variables using the context instead props with the Reactjs javascript framework.
 
+Context is designed to share data that can be considered global for a tree of React components, such as the current authenticated user, theme, or preferred language.
+
+In this small project I've shared an userId and a security token across the DOM tree using a UserProvider.
+
 # Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
